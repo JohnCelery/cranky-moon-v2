@@ -11,7 +11,7 @@ export const Doc = defineDocumentType(() => ({
 }))
 
 export default makeSource({
-  contentDirPath: 'content',
+  contentDirPath: 'src/content',
   documentTypes: [Doc],
   mdx: { rehypePlugins: [[rehypePrettyCode, { theme: 'one-dark-pro' }]] },
 })

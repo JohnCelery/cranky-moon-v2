@@ -7,8 +7,8 @@ This project is a basic Next.js 14 scaffold configured with TypeScript, Tailwind
 Install dependencies and run the development server:
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm run dev
 ```
 
 ## Development Container

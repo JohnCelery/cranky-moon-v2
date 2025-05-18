@@ -1,0 +1,5 @@
+lockfileVersion: 5.4
+importers:
+  .:
+    specifiers:
+      # dependencies defined in package.json

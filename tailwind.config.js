@@ -1,0 +1,4 @@
+module.exports = {
+  darkMode: "class",
+  content: ["./src/app/**/*.{js,ts,jsx,tsx}"]
+}
