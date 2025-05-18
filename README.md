@@ -4,12 +4,14 @@ This project is a basic Next.js 14 scaffold configured with TypeScript, Tailwind
 
 ## Getting Started
 
-Install dependencies and run the development server:
+Install dependencies and run the development server using **pnpm**:
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm run dev
 ```
+
+This project uses [pnpm](https://pnpm.io) for dependency management.
 
 ## Development Container
 
