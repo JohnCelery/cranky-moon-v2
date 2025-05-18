@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#stars {
+  position: absolute;
+  inset: 0;
+  background-color: transparent;
+}
+
+#stars::before,
+#stars::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-repeat: repeat;
+  background-size: 200px 200px;
+  background-image:
+    radial-gradient(#fff 1px, transparent 1px),
+    radial-gradient(#fff 1px, transparent 1px);
+  opacity: 0.6;
+  animation: twinkle 4s linear infinite;
+}
+
+#stars::after {
+  background-size: 250px 250px;
+  animation-delay: 2s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #stars::before,
+  #stars::after {
+    animation: none;
+  }
+}
